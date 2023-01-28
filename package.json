@@ -25,6 +25,7 @@
     "@types/jsonwebtoken": "^9.0.1",
     "@types/mongoose": "^5.11.97",
     "@types/node": "^18.11.18",
+    "@vercel/node": "^2.8.16",
     "cors": "^2.8.5",
     "tsup": "^6.5.0",
     "tsx": "^3.12.2",
