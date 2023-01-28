@@ -1,10 +1,12 @@
 {
     "version": 2,
     "public": true,
-    "builds": {
-        "src": "dist/index.cjs",
-        "use": "@vercel/node"
-    },
+    "builds": [
+        {
+            "src": "dist/index.cjs",
+            "use": "@vercel/node"
+        }
+    ],
     "routes": [
         {
             "src": "/(.*)",
