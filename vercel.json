@@ -1,7 +1,7 @@
 {
     "version": 2,
     "public": true,
-    "build": {
+    "builds": {
         "src": "dist/index.cjs",
         "use": "@vercel/node"
     },
