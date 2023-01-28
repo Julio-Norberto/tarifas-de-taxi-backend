@@ -573,7 +573,7 @@ userRouter.patch("/prices/:id", verifyToken, updatePriceInfo);
 userRouter.delete("/prices/remove/:id", verifyToken, removePriceInfo);
 
 // src/index.ts
-var port = 3e3;
+var port = process.env.PORT || 3e3;
 var app = (0, import_express2.default)();
 app.use((0, import_cors.default)());
 app.use(import_express2.default.json());
