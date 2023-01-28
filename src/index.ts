@@ -9,7 +9,7 @@ const app = express()
 app.use(cors())
 app.use(express.json())
 
-app.use('/api', userRouter)
+app.use('/', userRouter)
 
 app.listen(port, (): void => {
   console.log(`Server is running on port ${port}`)
