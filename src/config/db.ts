@@ -2,6 +2,7 @@ import mongoose from 'mongoose'
 import { config } from 'dotenv'
 config()
 
+mongoose.set("strictQuery", false)
 
 async function main() {
   const dbuser = process.env.DB_USER
