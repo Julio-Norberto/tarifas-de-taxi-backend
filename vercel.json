@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
         {
-            "src": "./dist/index.cjs",
+            "src": "dist/index.cjs",
             "use": "@vercel/node"
         }
     ],
     "routes": [
         {
             "src": "/api/(.*)",
-            "dest": "/"
+            "dest": "/api"
         }
     ]
 }
