@@ -11,7 +11,7 @@ import { verifyToken } from '../helpers/verify-token.js'
 userRouter.get('/', (req, res) => {
   res.send('Olá, mundo!')
 })
-userRouter.post('/create', createUser)
+//userRouter.post('/create', createUser)
 userRouter.post('/login', loginUser)
 userRouter.get('/checkuser', checkUser)
 
